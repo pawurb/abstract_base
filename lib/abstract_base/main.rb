@@ -1,0 +1,2 @@
+module AbstractBase
+end

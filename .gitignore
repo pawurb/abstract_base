@@ -1,0 +1,7 @@
+Gemfile.lock
+.ruby-version
+pkg/
+*.gem
+coverage/
+.byebug_history
+
