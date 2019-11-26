@@ -3,9 +3,8 @@ require_relative '../lib/abstract_base/main'
 
 class BaseTestClass
   extend AbstractBase
-
+  self.abstract_class = true
   abstract_methods :call, :run
-  abstract_class true
 
   def execute
     true

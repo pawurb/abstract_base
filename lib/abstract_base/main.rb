@@ -11,7 +11,8 @@ module AbstractBase
     end
   end
 
-  def abstract_class arg
+  def abstract_class=(bool)
+    return unless bool
     abstract_class_name = self.to_s
     define_method :initialize do |*parameters|
       unless self.class.to_s != abstract_class_name
